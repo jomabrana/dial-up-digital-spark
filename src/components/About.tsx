@@ -7,22 +7,22 @@ const About = () => {
     {
       icon: <Target className="h-8 w-8" />,
       title: "Visibility",
-      description: "Get found online with professional web presence"
+      description: "Website gives you online visibility and professional presence"
     },
     {
       icon: <Zap className="h-8 w-8" />,
       title: "Credibility", 
-      description: "Build trust with professional branding and communication"
+      description: "Business number gives you credibility and trust with customers"
     },
     {
       icon: <Shield className="h-8 w-8" />,
-      title: "Professionalism",
-      description: "Present your business with confidence and authority"
+      title: "Professional Communication",
+      description: "IVR gives you professional communication experience"
     },
     {
       icon: <TrendingUp className="h-8 w-8" />,
       title: "Trust = Conversion",
-      description: "Convert visitors into customers through reliability"
+      description: "All touchpoints match your brand for trust and conversion"
     }
   ];
 
@@ -31,11 +31,11 @@ const About = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Our Mission
+            Why This Project Works
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-            We empower businesses with a professional online presence, official contact tools, 
-            and consistent brand identity to <span className="text-teal-600 dark:text-teal-400 font-semibold">build trust, capture leads, and grow</span>.
+            We help startups and businesses launch or revamp their digital presence with a professional website, 
+            trusted contact system, and branded identity that <span className="text-teal-600 dark:text-teal-400 font-semibold">builds credibility, drives conversions, and supports growth</span>.
           </p>
         </div>
 

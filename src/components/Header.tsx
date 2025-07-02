@@ -43,12 +43,6 @@ const Header = () => {
               Services
             </button>
             <button 
-              onClick={() => scrollToSection('portfolio')}
-              className="text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200"
-            >
-              Portfolio
-            </button>
-            <button 
               onClick={() => scrollToSection('about')}
               className="text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200"
             >
@@ -97,12 +91,6 @@ const Header = () => {
                 className="text-left text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200"
               >
                 Services
-              </button>
-              <button 
-                onClick={() => scrollToSection('portfolio')}
-                className="text-left text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200"
-              >
-                Portfolio
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
